@@ -1,0 +1,24 @@
+{
+    "produtos":
+    [
+                {
+                    "id": 1,
+                    "title": "Classic Cheeseburger",
+                    "description": "Beef burger with cheddar cheese, lettuce, tomato, and special sauce.",
+                    "price": 25.00,
+                    "images": [
+                        "https://iili.io/dUyCKns.webp",
+                        "https://iili.io/dg9uiVS.jpg",
+                        "https://iili.io/dg9uPx2.jpg",
+                        "https://iili.io/dg9urN4.webp"
+                    ]
+                }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }

@@ -9,7 +9,7 @@ function App() {
   const [posts, setPosts] = useState([])
 
   useEffect(() =>{
-    axios.get("https://my-json-server.typicode.com/arthuracmm/ecommerly/posts")
+    axios.get("http://localhost:5000/produtos")
     .then((res) => {
       setPosts(res.data)
     })
@@ -24,15 +24,27 @@ function App() {
 
       <main>
           <div className="cards">
-            {posts.map((post, key) =>{
+            {posts.map((post) =>{
                   return (
                     <div className="card">
                         <header>
                           <h2>{post.title}</h2>
+                        <div className="post-photos">
+                          <div className="main-photo">
+                            <img src='https://iili.io/dUyCKns.webp' alt={post.title || 'Default Title'} />
+                          </div>
+                          <div className="other-photos">
+                            {post.images.map((image, index) => (
+                            <img key={index} src={image} alt={`${post.title} ${index}`}/>
+                            ))}
+                          </div>
+                          
+                        </div>
+                          
                         </header>
 
                         <p>{post.description}</p>
-                        <p>{post.value}</p>
+                        <p>{post.price}</p>
 
                         <div className="btns">
                         

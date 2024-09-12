@@ -1,5 +1,51 @@
+:root {
+    --color-one: #012030;
+    --color-two: #13678A;
+    --color-three: #45C4B0;
+    --color-four: #9AEBA3;
+    --color-five: #DAFDBA;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
 .App{
-    display: flex;
     flex-direction: column;
     background-color: #DAFDBA;
+}
+
+.cards{
+    display: flex;
+    max-width: 500px;
+    background-color: var(--color-four);
+}
+
+.card{
+    display: flex;
+    background-color: var(--color-one);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.post-photos{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-photos img{
+    width: 20rem;
+}
+
+.other-photos{
+    display: flex;
+    height: 5rem;
+}
+
+.other-photos img{
+    height: 4rem;
+    width: auto;
 }
