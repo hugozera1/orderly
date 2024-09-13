@@ -1,7 +1,8 @@
-import React, {useState, useEffect} from "react";
+import React from 'react';
 import './app.css'
-import MainHeader from "../../Components/mainHeader/mainHeader.js";
-import NewPosts from "../../Components/newPosts/newPosts.js";
+import MainHeader from "../../Components/mainHeader/mainHeader";
+import NewPosts from "../../Components/newPosts/newPosts";
+import AddPosts from "../../Components/AddPosts/AddPosts"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
 
       <main>
           <NewPosts/>
+          <AddPosts/>
       </main>
     </div>
   );

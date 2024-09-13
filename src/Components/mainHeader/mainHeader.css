@@ -86,6 +86,6 @@
 }
 
 .main-header-items ul li:hover{
-    background-color: var(--color-one);
+    background-color: var(--color-two);
     cursor: pointer;
 }
