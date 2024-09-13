@@ -1,6 +1,6 @@
 import './mainHeader.css'
-import userIcon from '../images/svg/user.svg'
-import search from '../images/svg/search.svg'
+import userIcon from '../../images/svg/user.svg'
+import search from '../../images/svg/search.svg'
 
 function MainHeader() {
   return (

@@ -1,10 +1,11 @@
 :root {
-    --color-one: #012030;
-    --color-two: #13678A;
-    --color-three: #45C4B0;
-    --color-four: #9AEBA3;
-    --color-five: #DAFDBA;
-  }
+    --color-one: #E03B24;
+    --color-two: #E07D24;
+    --color-three: #E15D24;
+    --color-four: #E02444;
+    --color-five: #E09B24;
+    --color-six: #E0916F;
+}
 
 *{
     margin: 0;
@@ -16,7 +17,7 @@
     height: 4rem;
     box-sizing: border-box;
     overflow: hidden;
-    background-color: var(--color-two);
+    background-color: var(--color-one);
     color: white;
     justify-content: space-between;
     padding: 4rem;

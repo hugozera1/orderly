@@ -1,0 +1,77 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.newpost-h1{
+    text-align: center;
+    color: var(--color-six);
+}
+
+.newpost-main{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.line{
+    width: 30rem;
+    height: .1rem;
+    background-color: var(--color-six);
+    margin: 0 auto 1rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-three);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.post-photos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.post-photos img{
+    height: 15rem;
+    border-radius: 20px;
+}
+
+.other-photos{
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    justify-content: space-between;
+}
+
+.other-photos img{
+    height: 3rem;
+    width: auto;
+    border-radius: 10px;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-btn{
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-two);
+    color: #fff;
+}
