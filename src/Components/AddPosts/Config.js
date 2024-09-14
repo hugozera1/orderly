@@ -8,8 +8,11 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+//// TUTORIAL DO YT https://www.youtube.com/watch?v=5986IgwaVKE 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBMYwnH6O13BuLlFhbjMMAh8FBqbBRQy34",
+  apiKey: "AIzaSyBMYwnH6O13BuLlFhbjMMAh8FBqbBRQy34", //se quiser testar com o o firebase é so trocar todos os valores desse const = firebaseConfig pelos valores que o fibase te da 
   authDomain: "oderlypiupload.firebaseapp.com",
   projectId: "oderlypiupload",
   storageBucket: "oderlypiupload.appspot.com",
